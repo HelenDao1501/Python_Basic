@@ -2,8 +2,8 @@
 
 #This Response Area Including Some:
   -Folders: assignments, peers, labs,..
-  - 💻:Python 🐍 and SQLite3
-  - 🛠:HTML, CSS, JavaScript, XML
+  - 💻: Python 🐍 and SQLite3
+  - 🛠: HTML, CSS, JavaScript, XML
   ..... still updating
 
 ## For more information contact me via: 	
