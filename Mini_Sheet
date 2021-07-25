@@ -1,0 +1,134 @@
+#print logic
+f = 42 % 10
+print(f)
+
+x = int(98.6)
+print(x)
+
+x = '40'
+y = int(x) + 2 #40 + 2
+print(y)
+
+str1 = "Hello"
+str2 = 'there'
+bob = str1 + str2
+print(bob)
+
+#def - keyword for defining a function
+def fred():
+   print("Zap")
+
+def jane():
+   print("ABC")
+
+jane()
+fred()
+jane()
+
+#iteration
+friends = ['Joseph', 'Glenn', 'Sally']    #friend
+for friend in friends :
+     print('Happy New Year:',  friend)
+print('Done!')
+
+for letter in 'banana' :  #letter
+    print(letter)
+
+#if()
+x = 12
+if x < 5:
+    print('smaller')
+else:
+    print('bigger')
+print("all done")
+
+#for()
+x = -1
+for value in [3, 41, 12, 9, 74, 15] :
+    if value > x :
+        x = value
+print(x)
+
+tot = 0
+for i in [5, 4, 3, 2, 1] :
+    tot = tot + 1
+print(tot)
+
+zork = 0
+for thing in [9, 41, 12, 3, 74, 15] :
+    zork = zork + thing
+print('After', zork)
+
+smallest_so_far = -1
+for the_num in [9, 41, 12, 3, 74, 15] :
+   if the_num < smallest_so_far :
+      smallest_so_far = the_num
+print(smallest_so_far)
+
+#while()
+n = 0
+while n > 0 :
+    print('Lather')
+    print('Rinse')
+print('Dry off!')
+
+#print(position from left start count= 0)
+x = 'From marquard@uct.ac.za'
+print(x[0],x[1],x[2],x[3])
+print(x[8])
+
+x = 'From marquard@uct.ac.za'
+print(x[14:17]) #uct
+
+stuff = ['joseph', 'sally', 'walter', 'tim']
+print(stuff[2]) #walter
+
+zap = "hello there bob"
+print(zap[4]) #o
+
+#range()
+total = 0
+for abc in range(5):
+    total = total + abc
+print(total)
+
+#len()
+print(len('banana')*7) #= count 'characters' then *7
+
+abc = "With three words"
+stuff = abc.split()
+#print(stuff) = ['With', 'three', 'words']
+print(len(stuff)) #3
+
+#print format string case
+greet = 'Hello Bob'
+print(greet)
+print(greet.upper())
+print(greet.lower())
+print(greet.lstrip())
+
+#startswith() --searchString
+str = 'To be, or not to be, that is the question.'
+print(str.startswith('To be')) #true => not set position auto from 0
+print(str.startswith('not to be')) #false
+print(str.startswith('not to be',10)) #=> position start from 10
+
+#find()
+data = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
+pos = data.find('.')
+print(data[pos]) #1
+print(data[pos+3]) #from pos + 3 position
+print(data[pos:pos+3])
+
+#split()
+str2 = 'Hello words'
+print(str2.split()) #['Hello', 'words']
+
+abc = "With three words"
+stuff = abc.split()
+print(stuff)
+
+#strip()
+txt = '  Thank you so much  '
+print(txt)
+print(txt.strip()) #removes whitespace begin&end
