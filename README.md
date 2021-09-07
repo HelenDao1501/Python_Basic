@@ -8,7 +8,7 @@
 
 ## For more information contact me via: 	
   - **LinkedIn:** [Tram Dao](www.linkedin.com/in/helen-dao)
-  - **Facebook:** [Bảo Trâm](https://www.facebook.com/bao.tram.1501/)
+  - **Email:** tramdb1501@gmail.com
 
 ###### Grateful for your concern 😉 
 
