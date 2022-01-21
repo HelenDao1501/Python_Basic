@@ -1,5 +1,6 @@
 #This Response Area Including Some:
-  -Folders: assignments, peers, labs,..
+
+  - Folders: assignments, peers, labs,..
   - 💻: Python 🐍 and SQLite3
   - 🛠: HTML, CSS, JavaScript, XML
   ..... still updating
